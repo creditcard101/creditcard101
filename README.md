@@ -1,3 +1,3 @@
 # Credit Card 101
 Unlock Free Travel. Today.
-creditcard101.github.io
+travelhacking101.github.io
