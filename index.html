@@ -23,6 +23,10 @@
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
 
+  <!-- Custom TravelHacking CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146689497-1"></script>
 	<script>
@@ -40,20 +44,28 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">TravelHacking101</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <div class="header-div">
+          <img class="resize" src='img/logo.png'>
+          TravelHacking101
+        </div>
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Intro</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Why?</a>
+            <a class="nav-link js-scroll-trigger" href="#benefits">Benefits</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Examples</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Personal Examples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#guide">Starter Guide</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -72,7 +84,7 @@
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5"> Want to travel the world, fly in business class and stay in 5-star hotels for free?
+          <p class="text-white-75 font-weight-light mb-5 custom-font"> Want to travel the world, fly in business class and stay in 5-star hotels for free?
           </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out How</a>
         </div>
@@ -87,15 +99,26 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">If I Can Do It, So Can You!</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">I've only started this hobby a little more than a year ago, and have amassed more than half a million points & miles, all without spending more than I normally would (I make sure each card I have puts me out ahead) while being a student. Many think that you need to have high income and high spend in order to do credit cards, but in reality if you are financially responsible, organized, and determined, you can do it too!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Let's Get Started!</a>
+          <p class="text-white-50 mb-4 custom-font">
+          I've only started this hobby a little more than a year ago, and have amassed more than half a million points & miles, all without spending more than I normally would (I make sure each card I have is 'profitable') while being a student. The secret is to put the right type of spend on the right cards, including your rent, tuition, and other
+          big costs! Many think that you need to have high income and high spend in order to do credit cards, but in reality if you are financially responsible, organized, and determined, you can do it too!
+          </p>
+          <p class="text-white-50 mb-4 custom-font">
+          Note:
+          This website is a work in progress and I plan on making more content available on the web after recruiting season is over :D
+          </p>
+          <p class="text-white-50 mb-4 custom-font">
+            In the meantime, please check out my "Starter Guide" PDF below.
+          </p>
+
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#benefits">Let's Get Started!</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Why Section -->
-  <section class="page-section" id="services">
+  <section class="page-section" id="benefits">
     <div class="container">
       <h2 class="text-center mt-0">Why Credit Cards?</h2>
       <hr class="divider my-4">
@@ -103,29 +126,29 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-plane text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Free Travel</h3>
-            <p class="text-muted mb-0">Accrue point and miles for free hotels and flights</p>
+            <h3 class="h4 mb-2 custom-font">Free Travel</h3>
+            <p class="text-muted mb-0 custom-font">Accrue point and miles for free hotels and flights</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-arrow-circle-up text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Benefits & Status</h3>
-            <p class="text-muted mb-0">Score perks such as room upgrades, free checked bags, priority boarding, expedited security screening</p>
+            <h3 class="h4 mb-2 custom-font">Benefits & Status</h3>
+            <p class="text-muted mb-0 custom-font">Score perks such as room upgrades, free checked bags, priority boarding, expedited security screening</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-life-ring text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Insurance</h3>
-            <p class="text-muted mb-0">Protect yourself from the unexpected with benefits like Trip Delay and Lost Baggage Insurance, Rental Insurance, and Purchase Protection</p>
+            <h3 class="h4 mb-2 custom-font">Insurance</h3>
+            <p class="text-muted mb-0 custom-font">Protect yourself from the unexpected with benefits like Trip Delay and Lost Baggage Insurance, Rental Insurance, and Purchase Protection</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-credit-card text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Build Credit</h3>
-            <p class="text-muted mb-0">Contrary to popular belief, having more cards help improve your credit score in the long term</p>
+            <h3 class="h4 mb-2 custom-font">Build Credit</h3>
+            <p class="text-muted mb-0 custom-font">Contrary to popular belief, having more cards help improve your credit score in the long term</p>
           </div>
         </div>
       </div>
@@ -140,10 +163,10 @@
           <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
+              <div class="project-category text-white-50 custom-font">
                 Free Business Class Flights
               </div>
-              <div class="project-name">
+              <div class="project-name" custom-font>
                 EVA Air Royal Laurel TPE-SEA
               </div>
             </div>
@@ -153,10 +176,10 @@
           <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
+              <div class="project-category text-white-50 custom-font">
                 Free Hotel Stays
               </div>
-              <div class="project-name">
+              <div class="project-name custom-font">
                 Courtyard by Marriott in Taipei
               </div>
             </div>
@@ -166,10 +189,10 @@
           <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
+              <div class="project-category text-white-50 custom-font">
                 Airport Lounge Access
               </div>
-              <div class="project-name">
+              <div class="project-name custom-font">
                 United Polaris Lounge @ SFO
               </div>
             </div>
@@ -179,10 +202,10 @@
           <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
+              <div class="project-category text-white-50 custom-font">
                 Expedited Security and Immigration
               </div>
-              <div class="project-name">
+              <div class="project-name custom-font">
                 Global Entry or TSA Pre
               </div>
             </div>
@@ -192,10 +215,10 @@
           <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
             <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
+              <div class="project-category text-white-50 custom-font">
                 Rental Car Benefits
               </div>
-              <div class="project-name">
+              <div class="project-name custom-font">
                 Silvercar Discount & Free Insurance
               </div>
             </div>
@@ -205,10 +228,10 @@
           <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
             <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
             <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
+              <div class="project-category text-white-50 custom-font">
                 Purchase Protection
               </div>
-              <div class="project-name">
+              <div class="project-name custom-font">
                 Lost your Airpod? Banks Have You Covered!
               </div>
             </div>
@@ -218,23 +241,25 @@
     </div>
   </section>
 
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Download the Starter Guide Today!</h2>
-      <a href="https://travelhacking101.github.io/downloads/TravelHacking101.pdf"><img src="img/pdf_thumb.png" width="20%"></a>
-      <a class="btn btn-light btn-xl" href="https://travelhacking101.github.io/downloads/TravelHacking101.pdf">Download Now!</a>
-    </div>
+
+  <!-- Starter Guide Section -->
+  <section id="guide">
+    <section class="page-section bg-dark text-white">
+      <div class="container text-center custom-font">
+        <h2 class="mb-4">Download the Starter Guide Today!</h2>
+        <a class="btn btn-light btn-xl" href="https://travelhacking101.github.io/downloads/TravelHacking101.pdf">Download Now!</a>
+      </div>
+    </section>
   </section>
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
+        <div class="col-lg-8 text-center custom-font">
           <h2 class="mt-0">Let's Get In Touch!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">For free individual consultations or any other inquiries, send us an email and we will get back to you as soon as possible!</p>
+          <p class="text-muted mb-5 custom-font">For free individual consultations or any other inquiries, send us an email and we will get back to you as soon as possible!</p>
         </div>
       </div>
       <div class="row">
@@ -243,7 +268,7 @@
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:travelhacking101info@gmail.com">travelhacking101info@gmail.com</a>
+          <a class="d-block custom-font" href="mailto:travelhacking101info@gmail.com">travelhacking101info@gmail.com</a>
         </div>
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
         </div>
@@ -254,7 +279,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - TravelHacking101</div>
+      <div class="small text-center text-muted custom-font">Copyright &copy; 2019 - TravelHacking101</div>
     </div>
   </footer>
 
