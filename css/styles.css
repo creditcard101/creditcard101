@@ -10,12 +10,17 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-light .navbar-toggler {
+  background-color: rgba(150, 150, 150, 0.4); 
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
 #mainNav .navbar-brand {
 	color: white;
 }
 
 #mainNav {
-  	background-color: transparent;
+  	background-color: black;
 }
 
 #mainNav.navbar-scrolled {
