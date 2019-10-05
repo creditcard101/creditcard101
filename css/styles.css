@@ -9,3 +9,20 @@
 .custom-font {
 	font-family: 'Open Sans', sans-serif;
 }
+
+#mainNav.navbar-scrolled {
+	background-color: black;
+}
+
+#mainNav.navbar-scrolled .navbar-brand {
+	color: #f8f9fa;
+}
+#mainNav.navbar-scrolled .navbar-brand:hover {
+	color: #f4623a;
+}
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+	color: #6c757d;
+}
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+	color: #f4623a;
+}
