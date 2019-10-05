@@ -10,6 +10,14 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+#mainNav .navbar-brand {
+	color: white;
+}
+
+#mainNav {
+  	background-color: transparent;
+}
+
 #mainNav.navbar-scrolled {
 	background-color: black;
 }
