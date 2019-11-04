@@ -53,3 +53,8 @@
 #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
 	color: #f4623a;
 }
+
+/*color override for links page*/
+.orange {
+  color: #f4623a !important;
+}
